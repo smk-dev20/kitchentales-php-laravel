@@ -9,7 +9,7 @@ KitchenTales is a personal recipe organizer that lets you store family recipes w
 ## Requirements
 
 - XAMPP with Apache and MySQL  
-- PHP >= 10 
+- PHP >= 8.2 
 - Composer  
 - Node.js & npm  
 

@@ -1,4 +1,8 @@
 <x-guest-layout>
+    <!-- Logo inside card -->
+    <div class="mb-6">
+        <img src="{{ asset('images/logo.JPG') }}" alt="KitchenTales" class="w-full h-auto">
+    </div>
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
