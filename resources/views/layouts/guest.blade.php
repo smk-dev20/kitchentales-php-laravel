@@ -23,9 +23,9 @@
         <!-- Default Statcounter code for KitchenTales
             https://kitchentales.webserve.xyz -->
             <script type="text/javascript">
-            var sc_project=13177571; 
-            var sc_invisible=1; 
-            var sc_security="18da79b1"; 
+            var sc_project="{{ config('services.statcounter.project_id') }}"; 
+            var sc_invisible="{{ config('services.statcounter.invisible') }}"; 
+            var sc_security="{{ config('services.statcounter.security') }}"; 
             </script>
             <script type="text/javascript"
             src="https://www.statcounter.com/counter/counter.js"
@@ -33,7 +33,7 @@
             <noscript><div class="statcounter"><a title="Web Analytics"
             href="https://statcounter.com/" target="_blank"><img
             class="statcounter"
-            src="https://c.statcounter.com/13177571/0/18da79b1/1/"
+            src="https://c.statcounter.com/{{ config('services.statcounter.project_id') }}/0/{{ config('services.statcounter.security') }}/{{ config('services.statcounter.invisible') }}/"
             alt="Web Analytics"
             referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
             <!-- End of Statcounter Code -->

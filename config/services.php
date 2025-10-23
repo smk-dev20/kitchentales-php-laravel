@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'statcounter' => [
+        'project_id' => env('SC_PROJECT_ID'),
+        'security'=> env('SC_SECURITY'),
+        'invisible' => env('SC_INVISIBLE', 1),
+    ],
+
 ];
